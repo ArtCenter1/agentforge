@@ -1,0 +1,41 @@
+# ── Expo / React Native ──────────────────────────────────────
+node_modules/
+.expo/
+dist/
+web-build/
+.expo-shared/
+
+# ── Environment — NEVER COMMIT THESE ────────────────────────
+.env
+.env.local
+.env.production
+.env.staging
+
+# ── Google service files — contain sensitive config ──────────
+google-services.json
+GoogleService-Info.plist
+
+# ── Native build output ──────────────────────────────────────
+ios/
+android/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# ── OS ───────────────────────────────────────────────────────
+.DS_Store
+*.orig.*
+Thumbs.db
+
+# ── Editor ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Logs ─────────────────────────────────────────────────────
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

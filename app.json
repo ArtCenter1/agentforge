@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Gemini Agent",
+    "slug": "expo-gemini-agent-boilerplate",
+    "version": "1.0.0",
+    "scheme": "myapp",
+    "orientation": "portrait",
+    "platforms": ["ios", "android"],
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f9fafb"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.yourcompany.geminiagent",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to record videos for AI analysis.",
+        "NSPhotoLibraryUsageDescription": "This app accesses your photo library to analyse existing videos and photos.",
+        "NSMicrophoneUsageDescription": "This app uses the microphone when recording videos."
+      }
+    },
+    "android": {
+      "package": "com.yourcompany.geminiagent",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-sqlite",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos for AI analysis.",
+          "cameraPermission": "Allow $(PRODUCT_NAME) to use your camera for recording."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
