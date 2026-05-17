@@ -4,8 +4,6 @@
 
 **AgentForge** is a production-ready Expo (React Native) boilerplate that gives you Google Sign-In, a Gemini AI agent with tool calling, camera + vision analysis, YouTube search, and a local SQLite database — all pre-wired and feature-flaggable.
 
-Inspired by [AionUi](https://github.com/iOfficeAI/AionUi), rebuilt for mobile.
-
 ---
 
 ![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20Android-lightgrey)
@@ -361,7 +359,6 @@ MIT — free to use in personal and commercial projects.
 
 ## 🙏 Acknowledgements
 
-- [AionUi](https://github.com/iOfficeAI/AionUi) — desktop AI agent app that inspired this boilerplate
 - [Google Gemini](https://ai.google.dev) — the AI powering the agent
 - [Expo](https://expo.dev) — the best way to build React Native apps
 
